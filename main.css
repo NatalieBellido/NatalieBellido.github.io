@@ -6,7 +6,10 @@ body {
   padding: 30px 20px;
   text-align: center;
 }
-
+a {
+color: #69CBBB;
+text-decoration: none;
+}
 h1 {
   padding: 20px 0px 10px 0px;
 }
