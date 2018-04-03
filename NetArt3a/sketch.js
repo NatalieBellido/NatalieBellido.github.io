@@ -10,7 +10,6 @@ function setup() {
   gif2 = loadGif('Pokeball_Rolling.gif');
 }
 
-
 function draw() {
   background(0);
   if (mouseIsPressed) {
