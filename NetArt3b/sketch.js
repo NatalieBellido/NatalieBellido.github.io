@@ -8,25 +8,25 @@ function preload() {
   jpg = loadImage('Pokeball.png');
 }
 
-function setup() {
-  createCanvas(500, 500);
-  gif = loadGif('Pokeball_Rolling_Other_Way.gif');
-}
-
-function draw() {
-  background(0);
-  if (mouseIsPressed) {
-    move();
-  }
-  if (right) {
-    image(gif, x, 420, gif.width / 2, gif.height / 2);
-  }
-  if (x == -81 || x == 580) {
-    right = !right;
-  }
-
-  function move() {
-    if (right) {
-      x++;
-    }
-  }
+// function setup() {
+//   createCanvas(500, 500);
+//   gif = loadGif('Pokeball_Rolling_Other_Way.gif');
+// }
+//
+// function draw() {
+//   background(0);
+//   if (mouseIsPressed) {
+//     move();
+//   }
+//   if (right) {
+//     image(gif, x, 420, gif.width / 2, gif.height / 2);
+//   }
+//   if (x == -81 || x == 580) {
+//     right = !right;
+//   }
+//
+//   function move() {
+//     if (right) {
+//       x++;
+//     }
+//   }
