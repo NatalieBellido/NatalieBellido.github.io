@@ -1,7 +1,8 @@
 body {
   margin: 30px auto;
   max-width: 60%;
-  font-family: 'Itim', cursive;;
+  font-family: 'Itim', cursive;
+  ;
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
@@ -14,8 +15,8 @@ h1 {
 /* This changes color and removes default underline in links  */
 
 a {
-color: #69CBBB;
-text-decoration: none;
+  color: #69CBBB;
+  text-decoration: none;
 }
 
 /* Centers images */
